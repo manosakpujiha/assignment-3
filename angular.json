@@ -60,7 +60,14 @@
           },
           "defaultConfiguration": "production"
         },
+
+
         "serve": {
+          "options": {
+            "liveReload": true,
+            "poll": 1000
+          },
+
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
@@ -72,6 +79,8 @@
           },
           "defaultConfiguration": "development"
         },
+
+
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n"
         },

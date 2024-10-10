@@ -1,0 +1,31 @@
+.content {
+    padding: 20px;
+    background-color: #f9f9f9;
+    background-color: #222222; /* Dark background for the content */
+    color: #e0e0e0; /* Light text */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2em;
+    color: #e0e0e0; /* Light text color */
+  }
+  img {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    color: #4CAF50;
+  }

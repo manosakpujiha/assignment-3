@@ -1,1 +1,46 @@
-<p>content works!</p>
+
+    <div class="content">
+        <h1>{{ title }}</h1>
+        <p>{{ description }}</p>
+        <!-- <p>Current Date: {{ currentDate  }}</p> -->
+    </div>
+
+        
+    <div class="content">
+
+        <h1>Property Binding Example</h1>
+
+        <!-- Property binding for an image's src and alt attributes -->
+        <img [src]="imgSrc" [alt]="imgAlt" />
+    
+        <!-- Property binding for a button's disabled attribute and its text -->
+        <button [disabled]="isDisabled">{{ buttonText }}</button>
+        <button (click)="toggleButton()">Toggle Button State</button>
+
+    </div>
+    <div class="content">
+        <h1>Event Binding Examples</h1>
+        
+        <!-- Button that triggers the onButtonClick method when clicked -->
+        <button (click)="onButtonClick()">Click Me</button>
+        
+        <!-- Display the message when the button is clicked -->
+        <p>{{ message }} </p>
+
+            <!-- Input field that listens for the keyup event event -->
+        <input (keyup)="onKeyUp($event)" placeholder="Type something"/>
+
+        <!-- Display the message -->
+        <p>{{ messages }}</p>
+    </div>
+
+
+    <div class="content">
+        <h1>Book Information (Display object properties using string interpolation)</h1>
+        
+        <!-- Display object properties using string interpolation -->
+        <p>Title: {{ book.title }}</p>
+        <p>Author: {{ book.author }}</p>
+        <p>Year: {{ book.year }}</p>
+    </div>
+  

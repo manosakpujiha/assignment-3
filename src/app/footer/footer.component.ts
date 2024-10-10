@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
-
+  name: string = 'Manos Akpujiha';
+  studentId: string = 'A00289665';
 }

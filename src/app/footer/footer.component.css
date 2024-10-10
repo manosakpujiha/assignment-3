@@ -1,0 +1,12 @@
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1e1e1e; /* Darker background for the footer */
+    color: #ffffff;
+    border-top: 1px solid #ccc;
+  }
+  
+footer p {
+  margin: 5px 0;
+  color: #e0e0e0;
+}

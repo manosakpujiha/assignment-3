@@ -1,1 +1,66 @@
 /* You can add global styles to this file, and also import other style files */
+/* Ensure the body and html take up the full height of the viewport */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  /* Global dark theme styles */
+body {
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2, h3, p {
+    color: #e0e0e0; /* Light text color for headings and paragraphs */
+  }
+  
+  a {
+    color: #90caf9; /* Light blue color for links */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
+  /* Set the app root component to fill the full height */
+  app-root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* The main content should take up all available space between the header and footer */
+  app-content {
+    flex: 1;
+  }
+  
+  /* Footer stays at the bottom of the page */
+  app-footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 98.9%;
+  }
+
+  button {
+    /* background-color: #333;
+    color: #ffffff; */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #444;
+  }
+  
