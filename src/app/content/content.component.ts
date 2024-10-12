@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './content.component.css'
 })
 export class ContentComponent {
-  title: string = 'This is the content section';
+  title: string = 'One way bindining example';
   description: string = 'This section is used to display content using one-way binding.';
 
    // Properties for property binding
@@ -37,7 +37,7 @@ export class ContentComponent {
   // Define an object with some properties
   book = {
     title: 'Angular for Beginners',
-    author: 'John Doe',
+    author: 'Manos Akpujiha',
     year: 2024
   };
 

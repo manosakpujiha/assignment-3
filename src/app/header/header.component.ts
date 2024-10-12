@@ -9,7 +9,6 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-  title: string = 'Welcome to My Angular Project';  // Property to bind to the input field
+  title: string = 'Type to view Two-way binding in the header component';  // Property to bind to the input field
   currentDate: Date = new Date();
-  
 }

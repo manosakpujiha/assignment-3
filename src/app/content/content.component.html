@@ -1,14 +1,14 @@
-
+    <h1>Content Component</h1>
     <div class="content">
-        <h1>{{ title }}</h1>
+        <h3>{{ title }}</h3>
         <p>{{ description }}</p>
         <!-- <p>Current Date: {{ currentDate  }}</p> -->
     </div>
 
         
     <div class="content">
-
-        <h1>Property Binding Example</h1>
+            
+        <h3>Property Binding Example</h3>
 
         <!-- Property binding for an image's src and alt attributes -->
         <img [src]="imgSrc" [alt]="imgAlt" />
@@ -19,7 +19,7 @@
 
     </div>
     <div class="content">
-        <h1>Event Binding Examples</h1>
+        <h3>Event Binding Examples</h3>
         
         <!-- Button that triggers the onButtonClick method when clicked -->
         <button (click)="onButtonClick()">Click Me</button>
@@ -36,7 +36,7 @@
 
 
     <div class="content">
-        <h1>Book Information (Display object properties using string interpolation)</h1>
+        <h3>Book Information (Displaying properties of an object from the .ts file using string interpolation)</h3>
         
         <!-- Display object properties using string interpolation -->
         <p>Title: {{ book.title }}</p>

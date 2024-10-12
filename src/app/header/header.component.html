@@ -1,11 +1,13 @@
 <!-- <p class="header">header works!</p> -->
 <header>
-    <h1>{{ title }}</h1> <!-- This element makes use of two way binding by linking the input below to itself using the title variable -->
-    <input [(ngModel)]="title" placeholder="Edit header title" />  <!-- This element makes use of two way binding by linking the h1  above to itself using the title variable  -->
-    <h2>Learning Angular</h2>
+    <h1>Header Component</h1>
+    <h3>{{ title }}</h3> <!-- This element makes use of two way binding by linking the input below to itself using the title variable -->
+    <div class="content">
+      <input class="input" [(ngModel)]="title" placeholder="Edit header title" />  <!-- This element makes use of two way binding by linking the h1  above to itself using the title variable  -->
+    </div>
+    
     <nav>
         <p class="date">Today's date: {{ currentDate }}</p> <!-- This element makes use of String interpolation to embed values from the component's class directly into this HTML template -->
-
       <!-- <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
